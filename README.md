@@ -19,5 +19,5 @@ Our pre-trained models enable existing person ReID algorithms to achieve signifi
 
 The fine-tuning performance of each model is shown in the table below. The up-arrow value represents the performance improvement compared to each corresponding ImageNet pre-trained model. As a common practice, we utilized MGN and TransReID as the fine-tuning algorithms. Please refer to our paper for more experimental details and results. 
 
-<div align="center"><img src="assets/performance.jpg" width="600"></div>
+<div align="center"><img src="assets/performance.jpg" width="550"></div>
 
