@@ -1,10 +1,18 @@
 # CION_ReIDZoo
-[NeurIPS2024] Cross-video Identity Correlating for Person Re-identification Pre-training
+<div align="center"><img src="assets/ReIDZoo.png" width="900"></div>
 
-The code, models and dataset will be released in a few days.
+**ReIDZoo** is a new fully open-sourced pre-training model zoo to meet diverse research and application needs in the field of person re-identification. It contains a series of CION pre-trained models with spanning structures and parameters, totaling 32 models with 10 different structures, including GhostNet, ConvNext, RepViT, FastViT and so on. 
 
-## Abstract
+**CION** is our proposed person re-identification pre-training framework that deeply utilizes cross-video identity correlations. It simply consists of a progressive identity correlation seeking strategy and an identity-guided self-distillation pre-training technology.
 
-Recent researches have proven that pre-training on large-scale person images extracted from internet videos is an effective way in learning better representations for person re-identification. However, these researches are mostly confined to pre-training at the instance-level or single-video tracklet-level. They ignore the identity-invariance in images of the same person across different videos, which is a key focus in person re-identification. To address this issue, we propose a Cross-video Identity-cOrrelating pre-traiNing (CION) framework. Defining a noise concept that comprehensively considers both intra-identity consistency and inter-identity discrimination, CION seeks the identity correlation from cross-video images by modeling it as a progressive multi-level denoising problem. Furthermore, an identity-guided self-distillation loss is proposed to implement better large-scale pre-training by mining the identity-invariance within person images. We conduct extensive experiments to verify the superiority of our CION in terms of efficiency and performance. CION achieves significantly leading performance with even fewer training samples. For example, compared with the previous state-of-the-art ISR, CION with the same ResNet50-IBN achieves higher mAP of 93.3% and 74.3% on Market1501 and MSMT17, while only utilizing 8% training samples. Finally, with CION demonstrating superior model-agnostic ability, we contribute a model zoo named ReIDZoo to meet diverse research and application needs in this field. It contains a series of CION pre-trained models with spanning structures and parameters, totaling 32 models with 10 different structures, including GhostNet, ConvNext, RepViT, FastViT and so on.
+**CION-AL** is a new large-scale person re-identification pre-training dataset with almost accurate identity labels. The images are obtained from LUPerson-NL based on our proposed progressive identity correlation seeking strategy. It contains 3,898,086 images of 246,904 identities totally.
+
+Our pre-trained models enable existing person ReID algorithms to achieve significantly better performance without bells and whistles. In this project, we will open-source all the code, models and dataset. More details can be found at our paper [Cross-Video Identity Correlating for Person Re-identification Pre-training](https://neurips.cc/virtual/2024/poster/95254).
+
+
+## News
+
+* 🙂[2024.9.26] Good News! Our paper is accepted by **NeurIPS2024**.
+
 
 
