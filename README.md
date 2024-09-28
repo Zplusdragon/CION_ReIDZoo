@@ -14,5 +14,10 @@ Our pre-trained models enable existing person ReID algorithms to achieve signifi
 
 * 🙂[2024.9.26] Good News! Our paper is accepted by **NeurIPS2024**.
 
+## ReIDZoo
+**ReIDZoo contains 32 CION pre-trained models with 10 different structures**. Among them, the **GhostNet, EdgeNext, RepViT and FastViT** are representative models with lightweight designs, which have smaller computational overhead and are convenient for practical deployment. Meanwhile, the **ResNet, ResNet-IBN, ConvNext, VOLO, Vision Transformer and Swin Transformer** are conventional models, which usually have more parameters and enjoy better performance. 
 
+The fine-tuning performance of each model is shown in the table below. The up-arrow value represents the performance improvement compared to each corresponding ImageNet pre-trained model. As a common practice, we utilized MGN and TransReID as the fine-tuning algorithms. Please refer to our paper for more experimental details and results. 
+
+<div align="center"><img src="assets/performance.jpg" width="600"></div>
 
