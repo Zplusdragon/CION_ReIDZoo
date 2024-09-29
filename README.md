@@ -1,4 +1,4 @@
-# CION_ReIDZoo(Constructing)
+# CION_ReIDZoo(updating)
 <div align="center"><img src="assets/ReIDZoo.png" width="900"></div>
 
 **ReIDZoo** is a new fully open-sourced **pre-trained model zoo** to meet diverse research and application needs in the field of person re-identification. It contains a series of CION pre-trained models with spanning structures and parameters, totaling 32 models with 10 different structures, including GhostNet, ConvNext, RepViT, FastViT and so on. 
