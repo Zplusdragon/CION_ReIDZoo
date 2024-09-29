@@ -9,6 +9,7 @@
 
 Our pre-trained models enable existing person ReID algorithms to achieve significantly better performance without bells and whistles. In this project, we will open-source all the code, models and dataset. More details can be found at our paper [Cross-video Identity Correlating for Person Re-identification Pre-training](https://neurips.cc/virtual/2024/poster/95254).
 
+Note:  To address the privacy concerns associated with crawling videos from the internet and the application of person ReID technology, we will implement a controlled release of our models and dataset, thereby preventing privacy violations and ensuring information security.
 
 ## News
 
@@ -21,12 +22,17 @@ The supervised fine-tuning performance of each model is shown in the table below
 
 <div align="center"><img src="assets/performance.jpg" width="550"></div>
 
+## CION-AL(Dataset)
 
-## CION
+CION-AL is a large-scale person re-identification pre-training dataset with almost accurate identity labels. In constructing the CION-AL dataset, we utilize our proposed progressive identity correlation seeking strategy to tag the images in LUPerson-NL with more accurate identity labels. It contains 3,898,086 images of 246,904 identities totally. 
 
-CION is our proposed **C**ross-video **I**dentity-c**O**rrelating pre-trai**N**ing framework for person re-identification. By utilizing our CION to pre-train the models, it is easier to learn identity-invariant representations for person re-identification. 
+To obtain the CION-AL dataset, please download and sign the license agreement (CION_AL_License.pdf) and send it to jlongzuo@hust.edu.cn or cgao@hust.edu.cn . Once the procedure is approved, the download link will be sent to your email.
 
-Now, we introduce the guidelines of how to pre-train the models from scratch, and how to fine-tune the pre-trained models based on TransReID, MGN (supervised ReID) and C-Contrast (unsupervised ReID).
+
+
+## CION(Pre-train)
+
+CION is our proposed **C**ross-video **I**dentity-c**O**rrelating pre-trai**N**ing framework for person re-identification. By utilizing our CION to pre-train the models, it is easier to learn identity-invariant representations for person re-identification. Now, we introduce the guidelines of how to pre-train the models from scratch.
 
 ### Dataset Prepare
 
@@ -57,6 +63,13 @@ Taking ResNet50-IBN as an example, run the following command to implement the pr
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 run.py --arch resnet50_ibn --batch_size_per_gpu 120 --local_crops_number 8 --output_dir logs/resnet50_ibn
 ```
+
+## Downstream Fine-tuning
+
+
+
+
+
 
 ## TBD
 Please stay tuned for future updates.
