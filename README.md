@@ -21,5 +21,39 @@ The fine-tuning performance of each model is shown in the table below. The up-ar
 
 <div align="center"><img src="assets/performance.jpg" width="550"></div>
 
+
+## CION
+
+CION is our proposed **C**ross-video **I**dentity-c**O**rrelating pre-trai**N**ing framework for person re-identification. By utilizing our CION to pre-train the models, it is easier to learn identity-invariant representations for person re-identification. Now, we introduce the guidelines of how to pre-train the models from scratch.
+
+### Dataset Prepare
+
+Download the CION-AL dataset and organize it in `dataset` folder as follows:
+
+```
+|-- dataset/
+|   |-- <CION_AL>/
+|       |-- sec0
+|       |-- sec1
+|       |-- ...
+|       |-- sec129
+|       |-- cional_annos.json
+|-- data/
+|-- models/
+|-- loss.py
+|-- run.py
+|-- utils.py
+```
+
+### Pre-train from Scratch
+
+As a default setting, we use 8×V100 (32GB) GPUs for pre-training the models. We set different batch sizes and numbers of local cropped views for different model to achieve better computational resouce utilization. Specific settings for each model can be found in Table 5 of our paper. 
+
+Taking ResNet50-IBN as an example, run the following command to implement the pre-training process. On 8 V100s, the entire pre-training process will take approximately 5 days.
+
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 run.py --arch resnet50_ibn --batch_size_per_gpu 120 --local_crops_number 8 --output_dir logs/resnet50_ibn
+```
+
 ## TBD
 Please stay tuned for future updates.
