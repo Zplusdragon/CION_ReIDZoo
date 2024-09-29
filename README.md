@@ -24,25 +24,28 @@ The supervised fine-tuning performance of each model is shown in the table below
 
 ## CION
 
-CION is our proposed **C**ross-video **I**dentity-c**O**rrelating pre-trai**N**ing framework for person re-identification. By utilizing our CION to pre-train the models, it is easier to learn identity-invariant representations for person re-identification. Now, we introduce the guidelines of how to pre-train the models from scratch, and how to fine-tune the pre-trained models based on TransReID, MGN (supervised ReID) and C-Contrast (unsupervised ReID).
+CION is our proposed **C**ross-video **I**dentity-c**O**rrelating pre-trai**N**ing framework for person re-identification. By utilizing our CION to pre-train the models, it is easier to learn identity-invariant representations for person re-identification. 
+
+Now, we introduce the guidelines of how to pre-train the models from scratch, and how to fine-tune the pre-trained models based on TransReID, MGN (supervised ReID) and C-Contrast (unsupervised ReID).
 
 ### Dataset Prepare
 
 Download the CION-AL dataset and organize it in `dataset` folder as follows:
 
 ```
-|-- dataset/
-|   |-- <CION_AL>/
-|       |-- sec0
-|       |-- sec1
-|       |-- ...
-|       |-- sec129
-|       |-- cional_annos.json
-|-- data/
-|-- models/
-|-- loss.py
-|-- run.py
-|-- utils.py
+|-- CION_Pretrain/
+|   |-- dataset/
+|   |   |-- CION_AL/
+|   |       |-- sec0
+|   |       |-- sec1
+|   |       |-- ...
+|   |       |-- sec129
+|   |       |-- cional_annos.json
+|   |-- data/
+|   |-- models/
+|   |-- loss.py
+|   |-- run.py
+|   |-- utils.py
 ```
 
 ### Pre-train from Scratch
