@@ -20,6 +20,8 @@ Note:  To address the privacy concerns associated with crawling videos from the 
 
 The supervised fine-tuning performance of each model is shown in the table below. The up-arrow value represents the performance improvement compared to each corresponding ImageNet pre-trained model. As a common practice, we utilized MGN and TransReID as the fine-tuning algorithms. Please refer to [our paper](https://neurips.cc/virtual/2024/poster/95254) for more experimental details and results. 
 
+To obtain the ReIDZoo, please download and sign the license agreement (ReIDZoo_License.pdf) and send it to jlongzuo@hust.edu.cn or cgao@hust.edu.cn . Once the procedure is approved, the download link will be sent to your email.
+
 <div align="center"><img src="assets/performance.jpg" width="550"></div>
 
 ## CION-AL(Dataset)
