@@ -1,11 +1,32 @@
 # CION_ReIDZoo(updating)
 <div align="center"><img src="assets/ReIDZoo.png" width="900"></div>
 
-**ReIDZoo** is a new fully open-sourced **pre-trained model zoo** to meet diverse research and application needs in the field of person re-identification. It contains a series of CION pre-trained models with spanning structures and parameters, totaling 32 models with 10 different structures, including GhostNet, ConvNext, RepViT, FastViT and so on. 
+<div align="center">
 
-**CION** is our proposed person re-identification **pre-training framework** that deeply utilizes cross-video identity correlations. It simply consists of a progressive identity correlation seeking strategy and an identity-guided self-distillation pre-training technology.
+[Jialong Zuo](https://scholar.google.jp/citations?user=R5OWszMAAAAJ&hl=zh-CN&oi=ao) <sup>1</sup>,
+[Ying Nie](https://scholar.google.jp/citations?user=1eOYln4AAAAJ&hl=zh-CN&oi=ao) <sup>2</sup>,
+[Hanyu Zhou](https://scholar.google.jp/citations?hl=zh-CN&user=FgHTmS4AAAAJ) <sup>1</sup>,
+[Huaxin Zhang](https://scholar.google.jp/citations?hl=zh-CN&user=FgHTmS4AAAAJ)  <sup>1</sup>,
+Haoyu Wang <sup>2</sup>,
+[Tianyu Guo](https://scholar.google.jp/citations?hl=zh-CN&user=RPK3oQgAAAAJ) <sup>2</sup>,
+[Nong Sang](https://scholar.google.jp/citations?hl=zh-CN&user=ky_ZowEAAAAJ) <sup>1</sup>,
+[Changxin Gao](https://scholar.google.jp/citations?hl=zh-CN&user=ky_ZowEAAAAJ) <sup>1,✉</sup>
+<br>
+<sup>1</sup> Huazhong University of Science and Technology,
+<sup>2</sup> Huawei Noah’s Ark Lab.
+<br>
+✉ Corresponding Author.
+<br>
 
-**CION-AL** is a new large-scale person re-identification **pre-training dataset** with almost accurate identity labels. The images are obtained from LUPerson-NL based on our proposed progressive identity correlation seeking strategy. It contains 3,898,086 images of 246,904 identities totally.
+</div>
+
+## 🔥 Highlights
+
+* **ReIDZoo** is a new fully open-sourced **pre-trained model zoo** to meet diverse research and application needs in the field of person re-identification. It contains a series of CION pre-trained models with spanning structures and parameters, totaling 32 models with 10 different structures, including GhostNet, ConvNext, RepViT, FastViT and so on. 
+
+* **CION** is our proposed person re-identification **pre-training framework** that deeply utilizes cross-video identity correlations. It simply consists of a progressive identity correlation seeking strategy and an identity-guided self-distillation pre-training technology.
+
+* **CION-AL** is a new large-scale person re-identification **pre-training dataset** with almost accurate identity labels. The images are obtained from LUPerson-NL based on our proposed progressive identity correlation seeking strategy. It contains 3,898,086 images of 246,904 identities totally.
 
 Our pre-trained models enable existing person ReID algorithms to achieve significantly better performance without bells and whistles. In this project, we will open-source all the code, models and dataset. More details can be found at our paper [Cross-video Identity Correlating for Person Re-identification Pre-training](https://neurips.cc/virtual/2024/poster/95254).
 
