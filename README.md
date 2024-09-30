@@ -1,4 +1,4 @@
-# CION_ReIDZoo(updating)
+# CION_ReIDZoo
 <div align="center"><img src="assets/ReIDZoo.png" width="900"></div>
 
 <div align="center">
