@@ -26,7 +26,7 @@ To obtain the ReIDZoo, please download and sign the license agreement (ReIDZoo_L
 
 ## CION-AL(Dataset)
 
-CION-AL is a large-scale person re-identification pre-training dataset with almost accurate identity labels. In constructing the CION-AL dataset, we utilize our proposed progressive identity correlation seeking strategy to tag the images in LUPerson-NL with more accurate identity labels. It contains 3,898,086 images of 246,904 identities totally. 
+CION-AL is a large-scale person re-identification pre-training dataset with almost accurate identity labels. In constructing the CION-AL dataset, we utilize our proposed progressive identity correlation seeking strategy to tag the images in LUPerson-NL with more accurate identity labels. It contains **3,898,086** images of **246,904** identities totally. 
 
 To obtain the CION-AL dataset, please download and sign the license agreement (CION_AL_License.pdf) and send it to jlongzuo@hust.edu.cn or cgao@hust.edu.cn . Once the procedure is approved, the download link will be sent to your email.
 
