@@ -80,7 +80,7 @@ Download the CION-AL dataset and organize it in `dataset` folder as follows:
 
 As a default setting, we use 8×V100 (32GB) GPUs for pre-training the models. We set different batch sizes and numbers of local cropped views for different model to achieve better computational resouce utilization. Specific settings for each model can be found in Table 5 of [our paper](https://arxiv.org/pdf/2409.18569v1). 
 
-Taking ResNet50-IBN as an example, run the following command to implement the pre-training process. On 8 V100s, the entire pre-training process will take approximately 5 days.
+Taking ResNet50-IBN as an example, run the following command to implement the pre-training process. On 8×V100s, the entire pre-training process will take approximately 5 days.
 
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 run.py --arch resnet50_ibn --batch_size_per_gpu 120 --local_crops_number 8 --output_dir logs/resnet50_ibn
