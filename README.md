@@ -10,17 +10,16 @@
 Haoyu Wang <sup>2</sup>,
 [Tianyu Guo](https://scholar.google.jp/citations?hl=zh-CN&user=RPK3oQgAAAAJ) <sup>2</sup>,
 [Nong Sang](https://scholar.google.jp/citations?hl=zh-CN&user=ky_ZowEAAAAJ) <sup>1</sup>,
-[Changxin Gao](https://scholar.google.jp/citations?hl=zh-CN&user=ky_ZowEAAAAJ) <sup>1,✉</sup>
+[Changxin Gao](https://scholar.google.jp/citations?hl=zh-CN&user=ky_ZowEAAAAJ) <sup>1,*</sup>
 <br>
 <sup>1</sup> Huazhong University of Science and Technology,
 <sup>2</sup> Huawei Noah’s Ark Lab.
 <br>
-✉ Corresponding Author.
+\* Corresponding Author.
 <br>
 
 </div>
 
-## 🔥 Highlights
 
 * **ReIDZoo** is a new fully open-sourced **pre-trained model zoo** to meet diverse research and application needs in the field of person re-identification. It contains a series of CION pre-trained models with spanning structures and parameters, totaling 32 models with 10 different structures, including GhostNet, ConvNext, RepViT, FastViT and so on. 
 
