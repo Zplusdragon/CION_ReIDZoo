@@ -49,7 +49,7 @@ The supervised fine-tuning performance of each model is shown in the table below
 
 To obtain the ReIDZoo, please download and sign the license agreement (ReIDZoo_License.pdf) and send it to jlongzuo@hust.edu.cn or cgao@hust.edu.cn . Once the procedure is approved, the download link will be sent to your email.
 
-<div align="center"><img src="assets/performance.jpg" width="550"></div>
+<div align="center"><img src="assets/performance.jpg" width="520"></div>
 
 ## CION-AL(Dataset)
 
