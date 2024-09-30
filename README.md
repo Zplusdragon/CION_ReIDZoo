@@ -6,7 +6,7 @@
 [Jialong Zuo](https://scholar.google.jp/citations?user=R5OWszMAAAAJ&hl=zh-CN&oi=ao) <sup>1</sup>,
 [Ying Nie](https://scholar.google.jp/citations?user=1eOYln4AAAAJ&hl=zh-CN&oi=ao) <sup>2</sup>,
 [Hanyu Zhou](https://scholar.google.jp/citations?hl=zh-CN&user=FgHTmS4AAAAJ) <sup>1</sup>,
-[Huaxin Zhang](https://scholar.google.jp/citations?hl=zh-CN&user=FgHTmS4AAAAJ)  <sup>1</sup>,
+[Huaxin Zhang](https://scholar.google.cz/citations?user=oyfu0pgAAAAJ&hl=zh-CN&oi=ao)  <sup>1</sup>,
 [Haoyu Wang](haoyuwang199705@gmail.com) <sup>2</sup>,
 [Tianyu Guo](https://scholar.google.jp/citations?hl=zh-CN&user=RPK3oQgAAAAJ) <sup>2</sup>,
 [Nong Sang](https://scholar.google.jp/citations?hl=zh-CN&user=ky_ZowEAAAAJ) <sup>1</sup>,
