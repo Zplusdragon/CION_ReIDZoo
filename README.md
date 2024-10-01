@@ -98,3 +98,16 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 
 ## Acknowledgements
 We thank these great works and open-source repositories: [DINO](https://github.com/facebookresearch/dino), [LUPerson-NL](https://github.com/DengpanFu/LUPerson-NL), [TransReID](https://github.com/damo-cv/TransReID), [FastReID](https://github.com/JDAI-CV/fast-reid), [cluster-contrast-reid](https://github.com/alibaba/cluster-contrast-reid), [TransReID-SSL](https://github.com/damo-cv/TransReID-SSL), [GhostNet](https://github.com/huawei-noah/Efficient-AI-Backbones), [ResNet](https://github.com/pytorch/vision), [ResNet-IBN](https://github.com/XingangPan/IBN-Net), [EdgeNeXt](https://github.com/mmaaz60/EdgeNeXt), [RepViT](https://github.com/THU-MIG/RepViT), [FastViT](https://github.com/apple/ml-fastvit), [ConvNeXt](https://github.com/facebookresearch/ConvNeXt), [Vision Transformer](https://github.com/google-research/vision_transformer), [Swin Transformer](https://github.com/microsoft/Swin-Transformer) and [VOLO](https://github.com/sail-sg/volo).
+
+## Citation
+```
+@misc{zuo2024cion,
+      title={Cross-video Identity Correlating for Person Re-identification Pre-training}, 
+      author={Jialong Zuo and Ying Nie and Hanyu Zhou and Huaxin Zhang and Haoyu Wang and Tianyu Guo and Nong Sang and Changxin Gao},
+      year={2024},
+      eprint={2409.18569},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.18569}, 
+}
+```
