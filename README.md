@@ -10,7 +10,7 @@
 [Haoyu Wang](haoyuwang199705@gmail.com) <sup>2</sup>,
 [Tianyu Guo](https://scholar.google.jp/citations?hl=zh-CN&user=RPK3oQgAAAAJ) <sup>2</sup>,
 [Nong Sang](https://scholar.google.jp/citations?hl=zh-CN&user=ky_ZowEAAAAJ) <sup>1</sup>,
-[Changxin Gao](https://scholar.google.jp/citations?hl=zh-CN&user=ky_ZowEAAAAJ) <sup>1,*</sup>
+[Changxin Gao](https://scholar.google.com/citations?user=4tku-lwAAAAJ&hl=zh-CN&oi=ao) <sup>1,*</sup>
 <br>
 <sup>1</sup> Huazhong University of Science and Technology,
 <sup>2</sup> Huawei Noah’s Ark Lab.
