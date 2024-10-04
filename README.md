@@ -101,13 +101,10 @@ We thank these great works and open-source repositories: [DINO](https://github.c
 
 ## Citation
 ```
-@misc{zuo2024cion,
-      title={Cross-video Identity Correlating for Person Re-identification Pre-training}, 
-      author={Jialong Zuo and Ying Nie and Hanyu Zhou and Huaxin Zhang and Haoyu Wang and Tianyu Guo and Nong Sang and Changxin Gao},
-      year={2024},
-      eprint={2409.18569},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.18569}, 
+@article{zuo2024cross,
+  title={Cross-video Identity Correlating for Person Re-identification Pre-training},
+  author={Zuo, Jialong and Nie, Ying and Zhou, Hanyu and Zhang, Huaxin and Wang, Haoyu and Guo, Tianyu and Sang, Nong and Gao, Changxin},
+  journal={arXiv preprint arXiv:2409.18569},
+  year={2024}
 }
 ```
