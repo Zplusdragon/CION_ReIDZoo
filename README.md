@@ -32,6 +32,7 @@ Our pre-trained models enable existing person ReID algorithms to achieve signifi
 Note:  To address the privacy concerns associated with crawling videos from the internet and the application of person ReID technology, we will implement a controlled release of our models and dataset, thereby preventing privacy violations and ensuring information security.
 
 ## News
+* 🙂[2024.11.26] We release the downstream fine-tuning code.
 * 🙂[2024.9.30] Our paper is released on [Arxiv](https://arxiv.org/abs/2409.18569v1).
 * 🙂[2024.9.26] Good News! Our paper is accepted by **NeurIPS2024**.
 
