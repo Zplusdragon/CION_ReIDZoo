@@ -1,16 +1,11 @@
 # Cluster Contrast for Unsupervised Person Re-Identification
 We modify the code from [cluster-contrast-reid](https://github.com/alibaba/cluster-contrast-reid). You can refer to the original repo for more details.
 
-### Installation
 
-```shell
-python setup.py develop
-```
-
-### Prepare Pre-trained Models 
+## Prepare Pre-trained Models 
 Please download the CION pre-trained models and put them into your custom file folder.
 
-### Training
+## Training
 
 You can use 2 or 4 GPUs for training. For more parameter configuration, please check **`market_usl_xx.sh`**, **`market_uda_xx.sh`**, **`msmt_usl_xx.sh`** and **`msmt_uda_xx.sh`**.
 
