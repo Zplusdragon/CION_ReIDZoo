@@ -17,6 +17,8 @@ python train.py --config_file configs/market/resnet50.yml
 
 ## Evaluation
 
+After the TransReID fine-tuning, you can run the following command to evaluate the performance.
+
 ```bash
 python test.py --config_file 'choose which config to test' MODEL.DEVICE_ID "('your device id')" TEST.WEIGHT "('your path of trained checkpoints')"
 ```
