@@ -27,11 +27,4 @@ If you find this code useful for your research, please cite the paper
   journal={arXiv preprint arXiv:2409.18569},
   year={2024}
 }
-
-@article{dai2021cluster,
-  title={Cluster Contrast for Unsupervised Person Re-Identification},
-  author={Dai, Zuozhuo and Wang, Guangyuan and Zhu, Siyu and Yuan, Weihao and Tan, Ping},
-  journal={arXiv preprint arXiv:2103.11568},
-  year={2021}
-}
 ```
