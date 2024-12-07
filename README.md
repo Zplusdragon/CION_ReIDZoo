@@ -27,7 +27,7 @@
 
 * **CION-AL** is a new large-scale person re-identification **pre-training dataset** with almost accurate identity labels. The images are obtained from LUPerson-NL based on our proposed progressive identity correlation seeking strategy. It contains 3,898,086 images of 246,904 identities totally.
 
-Our pre-trained models enable existing person ReID algorithms to achieve significantly better performance without bells and whistles. In this project, we will open-source the code, models and dataset. More details can be found at our paper [Cross-video Identity Correlating for Person Re-identification Pre-training](https://arxiv.org/abs/2409.18569v1).
+Our pre-trained models enable existing person ReID algorithms to achieve significantly better performance without bells and whistles. In this project, we will open-source the code, models and dataset. More details can be found at our paper [Cross-video Identity Correlating for Person Re-identification Pre-training](https://neurips.cc/virtual/2024/poster/95254).
 
 Note:  To address the privacy concerns associated with crawling videos from the internet and the application of person ReID technology, we will implement a controlled release of our models and dataset, thereby preventing privacy violations and ensuring information security.
 
@@ -103,10 +103,11 @@ We thank these great works and open-source repositories: [DINO](https://github.c
 
 ## Citation
 ```
-@article{zuo2024cross,
-  title={Cross-video Identity Correlating for Person Re-identification Pre-training},
-  author={Zuo, Jialong and Nie, Ying and Zhou, Hanyu and Zhang, Huaxin and Wang, Haoyu and Guo, Tianyu and Sang, Nong and Gao, Changxin},
-  journal={arXiv preprint arXiv:2409.18569},
-  year={2024}
+@inproceedings{
+zuo2024crossvideo,
+title={Cross-video Identity Correlating for Person Re-identification Pre-training},
+author={Jialong Zuo and Ying Nie and Hanyu Zhou and Huaxin Zhang and Haoyu Wang and Tianyu Guo and Nong Sang and Changxin Gao},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024}
 }
 ```
