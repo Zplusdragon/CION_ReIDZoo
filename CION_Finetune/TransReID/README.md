@@ -28,10 +28,11 @@ python test.py --config_file 'choose which config to test' MODEL.DEVICE_ID "('yo
 If you find this code useful for your research, please cite our paper
 
 ```
-@article{zuo2024cross,
-  title={Cross-video Identity Correlating for Person Re-identification Pre-training},
-  author={Zuo, Jialong and Nie, Ying and Zhou, Hanyu and Zhang, Huaxin and Wang, Haoyu and Guo, Tianyu and Sang, Nong and Gao, Changxin},
-  journal={arXiv preprint arXiv:2409.18569},
-  year={2024}
+@inproceedings{
+zuo2024crossvideo,
+title={Cross-video Identity Correlating for Person Re-identification Pre-training},
+author={Jialong Zuo and Ying Nie and Hanyu Zhou and Huaxin Zhang and Haoyu Wang and Tianyu Guo and Nong Sang and Changxin Gao},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024}
 }
 ```
