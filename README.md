@@ -32,6 +32,7 @@ Our pre-trained models enable existing person ReID algorithms to achieve signifi
 Note:  To address the privacy concerns associated with crawling videos from the internet and the application of person ReID technology, we will implement a controlled release of our models and dataset, thereby preventing privacy violations and ensuring information security.
 
 ## News
+* 🔥[2025.06.20] We have publicly released our CION-AL dataset on [Huggingface](https://huggingface.co/datasets/jlongzuo/CION-AL) and ReIDZoo on [Google Drive](https://drive.google.com/drive/folders/1PSFXdc4Iid7RK3DicTZ3Tfygu00ntrFn?usp=sharing) to facilitate researchers in downloading and using them. Users are requested to voluntarily sign the relevant agreements and send them to our email address.
 * 🙂[2024.11.26] We release the downstream fine-tuning code.
 * 🙂[2024.9.30] Our paper is released on [Arxiv](https://arxiv.org/abs/2409.18569v1).
 * 🙂[2024.9.26] Good News! Our paper is accepted by **NeurIPS2024**.
